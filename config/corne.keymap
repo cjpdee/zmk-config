@@ -13,16 +13,6 @@
  };
 
 / {
-        behaviours {
-            td0: tap_dance_power {
-                compatible = "zmk,behavior-tap-dance";
-                label = "TAP_DANCE_0";
-                #binding-cells = <0>;
-                tapping-term-ms = <200>;
-                bindings = <&kp CAPS>, <&kp C_SLEEP>, <&kp C_POWER>;
-            };
-        };
-
         keymap {
                 compatible = "zmk,keymap";
 
